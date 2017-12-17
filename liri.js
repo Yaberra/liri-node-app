@@ -60,7 +60,7 @@ if (command1 === 'my-tweets') {
             console.error('Error occurred: ' + err);
         });
 
-
+// If no song is provided then your program will default to "The Sign" by Ace of Base.
 
 } else if (command1 === 'movie-this') {
 
@@ -94,18 +94,26 @@ if (command1 === 'my-tweets') {
     });
 };
 
-// If no song is provided then your program will default to "The Sign" by Ace of Base.
-
 // If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 // If you haven't watched "Mr. Nobody," then you should: <http://www.imdb.com/title/tt0485947/>
 
 // It's on Netflix!
 
-//  4. `node liri.js do-what-it-says`
+var fs = require("fs");
+	fs.readFile("random.txt", "utf8", function(error, data) {
+ 	
+ 	if (error) {
+ 	
+ 	console.log(data);
+  
+ 	} else {
+         console.log(error);
+    }
 
-//      * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
+  	var dataArr = data.split(",");
+  	console.log(dataArr);
+  	
+});
 
-//      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
-//      * Feel free to change the text in that document to test out the feature for other commands.
