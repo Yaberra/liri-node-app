@@ -1,0 +1,28 @@
+Twitter
+
+My dummy Twitter account @Yaya82496434
+Consumer Key (API Key)	cIVhDA9gf1tiGeuteK4un504h (manage keys and access tokens)
+Callback URL	None
+Callback URL Locked	No
+Sign in with Twitter	Yes
+App-only authentication	https://api.twitter.com/oauth2/token
+Request token URL	https://api.twitter.com/oauth/request_token
+Authorize URL	https://api.twitter.com/oauth/authorize
+Access token URL	https://api.twitter.com/oauth/access_token
+
+Application Settings
+Keep the "Consumer Secret" a secret. This key should never be human-readable in your application.
+Consumer Key (API Key)	cIVhDA9gf1tiGeuteK4un504h
+Consumer Secret (API Secret)	Z4pZ2tBbeoevkZvhKPlMb3U2GeWMYnLMv9pcscKh351CTg1NAf
+Access Level	Read and write (modify app permissions)
+Owner	yacode2020
+Owner ID	941133281537482752
+
+Spotify 
+
+Client ID f64302bd58c14fbab0ec923c5818e1ba
+Client Secret 68829be093324d27874d479e433b7d11
+
+OMDB
+
+"https://www.omdbapi.com/?t=" +  + "&y=&plot=short&apikey=trilogy"
